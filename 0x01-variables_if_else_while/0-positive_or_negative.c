@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry
  *
  *Return: Always 0 (Success/correct)
  */
@@ -15,14 +15,14 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n==0)
+if (n == 0)
 {
 printf("%i is zero\n", n);
-{
+}
 
-else
+else if (n < 0)
 {
-printf("%i _ i positive\n", n);
+printf("i is positive\n", n);
 }
 
 return (0);
